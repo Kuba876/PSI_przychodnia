@@ -36,17 +36,32 @@ Wystawienie recept & Krajowa Baza Danych recept&Lekarz wystawia recepte i inform
 	\hline
 	\rowcolor{lightgray} Proces & Aktor Biznesowy & Funkcje/zadania & Dane\\
 	\hline
-	Zakup nowego wyposażenia & Producent &- Pracownik przychodni  kupuję i wprowadza nowe wyposażenie do bazy danych & Dowód zakupu\\
+	Zakup nowego wyposażenia & Producent Wyposażenia &- Pracownik przychodni  kupuję i wprowadza nowe wyposażenie do bazy danych & Dowód zakupu\\
 	\hline
-	Instalacja nowego wyposażenia & firma instalacyjna &- Przychodnia wynajmuję firmę zajmującą się instalacją nowego wyposażenia medycznego \newline- Pracownik wynajętej firmy instaluje nowe wyposażenie \newline- przychondnia opłaca wynajętą firmę & Faktura \\
+	Instalacja nowego wyposażenia & Firma Instalacyjna &- Przychodnia wynajmuję firmę zajmującą się instalacją nowego wyposażenia medycznego \newline- Pracownik wynajętej firmy instaluje nowe wyposażenie \newline- przychondnia opłaca wynajętą firmę & Faktura \\
 	\hline
-	Okresowy przegląd wyposażenia & &- Pracownik przeprowadza standardowy przegląd wyposażenia i zgłasza ewentualne problemy & Karta przeglądu\\
+	Okresowy przegląd wyposażenia & Firma Konserwacyjna &- Pracownik konserwacyjny przeprowadza standardowy przegląd wyposażenia i zgłasza ewentualne problemy & Karta przeglądu\\
 	\hline
 	Rezerwacja wyposażenia & &- Lekarz zgłasza zapotrzebowanie na wyposażenie \newline- Pracownik zarzącający sprawdza dostępne terminy i przypisuję je do danego lekarza & Kalendarz rezerwacji\\
 	\hline
-	Naprawa zepsutego wyposażenia & Firma zajmująca się naprawą &- Pracownik przychodni przekazuję zpesutę wyposażenie do zewnętrznej firmy \newline- Firma naprawia sprzęt i wydaje fakture & faktura\\
+	Naprawa zepsutego wyposażenia & Konserwacyjna &- Pracownik przychodni przekazuję zpesutę wyposażenie do zewnętrznej firmy \newline- Firma naprawia sprzęt i wydaje fakture & faktura\\
 	\hline 
 \end{tabular}
+\subsubsection*{Aktorzy Biznesowi}
+\begin{itemize}
+	\item Producent Wyposażenia
+	\item Firma Instalacyjna
+	\item Firma Konserwacyjna
+\end{itemize}
+\subsubsection*{Procesy Biznesowe}
+\begin{itemize}
+	\item Zakup nowego wyposażenia
+	\item Instalacja nowego wyposażenia
+	\item Okresowy przegląd wyposażenia
+	\item Rezerwacja wyposażenia
+	\item Naprawa zepsutego wyposażenia
+\end{itemize}
+\subsubsection*{Cel wytworzenia systemu informatycznego:} Usprawnienie zarządzaniem wyposażeniem przychodni
 \newpage
 \section*{Proces obsługi wizyty (od zapisania się na wizytę do wystawienia dokumentów po wizycie).}
 
@@ -59,12 +74,15 @@ Wystawienie recept & Krajowa Baza Danych recept&Lekarz wystawia recepte i inform
 	\hline
 	\rowcolor{lightgray} Proces & Aktor Biznesowy & Funkcje/zadania & Dane\\
 	\hline
-	Rejestracja Pacjenta	& Pacjent,\newline pracownik rejestracji & Pracownik rejestracji ustala wizyte z lekarzem & Dane Pacjenta, Informacje medyczne\\
+	Rejestracja Pacjenta	& Pacjent & Pracownik rejestracji ustala wizyte z lekarzem i przekazuję informację pacjenotwi & Dane Pacjenta \newline Informacje medyczne\\
 	\hline
-	Wizyta lekarska & Pacjent,\newline Lekarz	& Pacjent konsultuje sie z Lekarzemz\newline Lekarz wystawia recepty albo skierowanie do specjalisty& Informacje medyczne\\
+	Wizyta lekarska & Pacjent & Pacjent konsultuje sie z Lekarzemz& Informacje medyczne\\
 	\hline
-	Wystawienie recept & Krajowa Baza Danych recept&Lekarz wystawia recepte i informacja jest przesylana do Bazy Danych&Informacje o Leku, nr Lekarza\\
+	Wystawienie recept & Krajowa Baza Danych recept&Lekarz wystawia recepte i informacja jest przesylana do Bazy Danych&Informacje o Leku \newline nr Lekarza\\
 	\hline
+	Wystawianie skierowania &  & Lekarz wystawia skierowanie do specjalisty & Skierowanie\\
+	\hline 
+	
 \end{tabular}
 \end{center}
 
