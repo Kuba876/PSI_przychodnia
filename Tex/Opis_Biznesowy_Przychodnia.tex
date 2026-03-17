@@ -1,0 +1,71 @@
+\documentclass{article}
+\author{Dawid S. Jakubczyk, Jakub Daszewski}
+\usepackage{polski}
+\usepackage[table]{xcolor}
+\usepackage[a4paper, margin=1in]{geometry}
+\title{Model biznesowy: Przychodnia medyczna}
+\begin{document}
+\maketitle
+\newpage
+\section*{Obsługa wizyt, łącznie z zarządzaniem pacjentami i lekarzami.}
+
+\subsection*{Kontekst dziedziny problemowej:}
+Pacjent przychodzi do rejestracji rejestrujac sie na wizyte, przychodnia rezerwuje gabinet lekarski, czas lekarza, i jesli jest wymagany sprzet medyczny to rowniez jest przypisywany do wizyty. Po wizycie publicznej NFZ rozlicza sie z przychodnia, jesli wizyta byla prywatna pacjent reguluje naleznosci w rejestracji.
+Przychodnia odpowiada za przeslanie informacji do systemu recept 
+\subsection*{Procesy i aktorzy biznesowi:}
+
+\begin{tabular}{|m{6em}|m{10em}|m{18em}|m{7em}|}
+\hline
+\rowcolor{lightgray} Proces & Aktor Biznesowy & Funkcje/zadania & Dane\\
+\hline
+Rejestracja Pacjenta	& Pacjent\newline pracownik rejestracji & Pracownik rejestracji ustala wizyte z lekarzem & Dane Pacjenta, Informacje medyczne\\
+\hline
+Wizyta lekarska & Pacjent\newline Lekarz	& Pacjent konsultuje sie z Lekarzemz\newline Lekarz wystawia recepty albo skierowanie do specjalisty& Informacje medyczne\\
+\hline
+Wystawienie recept & Krajowa Baza Danych recept&Lekarz wystawia recepte i informacja jest przesylana do Bazy Danych&Informacje o Leku, nr Lekarza\\
+\hline
+\end{tabular}
+\newpage
+\section*{Zarządzanie wyposażeniem przychodni, łącznie z obsługą zakupu i instalacji wyposażenia.
+}
+
+\subsection*{Kontekst dziedziny problemowej:}
+
+\subsection*{Procesy i aktorzy biznesowi:}
+\begin{tabular}{|m{6em}|m{10em}|m{18em}|m{7em}|}
+	\hline
+	\rowcolor{lightgray} Proces & Aktor Biznesowy & Funkcje/zadania & Dane\\
+	\hline
+	Zakup nowego wyposażenia & Producent &- Pracownik przychodni  kupuję i wprowadza nowe wyposażenie do bazy danych & Dowód zakupu\\
+	\hline
+	Instalacja nowego wyposażenia & firma instalacyjna &- Przychodnia wynajmuję firmę zajmującą się instalacją nowego wyposażenia medycznego \newline- Pracownik wynajętej firmy instaluje nowe wyposażenie \newline- przychondnia opłaca wynajętą firmę & Faktura \\
+	\hline
+	Okresowy przegląd wyposażenia & &- Pracownik przeprowadza standardowy przegląd wyposażenia i zgłasza ewentualne problemy & Karta przeglądu\\
+	\hline
+	Rezerwacja wyposażenia & &- Lekarz zgłasza zapotrzebowanie na wyposażenie \newline- Pracownik zarzącający sprawdza dostępne terminy i przypisuję je do danego lekarza & Kalendarz rezerwacji\\
+	\hline
+	Naprawa zepsutego wyposażenia & Firma zajmująca się naprawą &- Pracownik przychodni przekazuję zpesutę wyposażenie do zewnętrznej firmy \newline- Firma naprawia sprzęt i wydaje fakture & faktura\\
+	\hline 
+\end{tabular}
+\newpage
+\section*{Proces obsługi wizyty (od zapisania się na wizytę do wystawienia dokumentów po wizycie).}
+
+\subsection*{Kontekst dziedziny problemowej:}
+
+\subsection*{Procesy i aktorzy biznesowi:}
+\begin{center}
+
+\begin{tabular}{|m{6em}|m{10em}|m{18em}|m{7em}|}
+	\hline
+	\rowcolor{lightgray} Proces & Aktor Biznesowy & Funkcje/zadania & Dane\\
+	\hline
+	Rejestracja Pacjenta	& Pacjent,\newline pracownik rejestracji & Pracownik rejestracji ustala wizyte z lekarzem & Dane Pacjenta, Informacje medyczne\\
+	\hline
+	Wizyta lekarska & Pacjent,\newline Lekarz	& Pacjent konsultuje sie z Lekarzemz\newline Lekarz wystawia recepty albo skierowanie do specjalisty& Informacje medyczne\\
+	\hline
+	Wystawienie recept & Krajowa Baza Danych recept&Lekarz wystawia recepte i informacja jest przesylana do Bazy Danych&Informacje o Leku, nr Lekarza\\
+	\hline
+\end{tabular}
+\end{center}
+
+\end{document}
