@@ -10,7 +10,7 @@ system przechowuje dane o wizycie
 W dniu wizyty system udostepnia uprawnionym osoba dane wizyty
 
 Dziedzina problemu System Informatyczny dla Przychodni
-Wymagania funkcjonalne
+Wymagania funkcjonalne:
 System musi umozliwic pracownikom rezerwacje wizyty
 System powinnien podpowiadac mozliwe terminy wizyt
 System rezerwuje 
