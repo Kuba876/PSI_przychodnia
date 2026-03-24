@@ -1,12 +1,11 @@
 Dziedzina Problemu: Przychodnia Medyczna
-Proces biznesowy: Zarzadzanie wyposazeniem
+Proces biznesowy: System zarzadzania sprzetem medycznym
 
 Czynnosci:
 System na podstawie przechowywanych danych albo na zlecenie pracownika administracyjnego
 o jedenj akcji: zakup nowego wyposazenia i jego instalacja, 
 okresowy przeglad, system rezerwuje wyposazenie, naprawa zepsutego wyposazenia
 W razie przegladu albo naprawy system automatycznie informuje podwykonawcow
-Dziedzina problemu problemu System zarzadzania sprzetem medycznym
 Wymagania funkcjonalne:
 System musi przechowywac dane o calym wyposazeniu przychodni
 System sprawdza automatycznie kiedy nalezy zrobic przeglad i w zaleznosci od ustawien informuje pracownikow i/lub podwykonawcow
