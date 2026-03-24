@@ -1,0 +1,20 @@
+Dziedzina Problemu: Przychodnia Medyczna
+Proces biznesowy: Obsluga wizyt
+
+Czynnosci:
+System wczytuje dane z bazy wizyt
+System uklada plany pracownikom
+System wysyła powiadomienia do pracownika
+
+Wymagania funkcjonalne:
+System musi umozliwic zmiane planu w trakcie dnia
+System zapewnia spojność planu z godzinami pracy pracownika
+
+Wymagania jakosciowe:
+System powinien jak najkrocej korzystac z bazy danych wizyt
+System powinien przechowywać dane w formie skompresowanej i skupić sie na zajęciu małej ilości miejsca
+
+Ograniczenia:
+System powinien być w stanie wysyłać powiadomienia na różnych platformach
+
+
