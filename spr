@@ -1,0 +1,16 @@
+Dziedzina Problemu: Przychodnia Medyczna
+Proces biznesowy: Obsluga wizyty
+
+Czynnosci:
+Pracownik wpisuje wizyte
+system sugeruje wolne terminy
+pracownik potwierdza zgodnosc danych
+rezerwuje pomieszczenie i ustawia zajetosc pomieszczenia
+system przechowuje dane o wizycie
+W dniu wizyty system udostepnia uprawnionym osoba dane wizyty
+
+Dziedzina problemu System Informatyczny dla Przychodni
+Wymagania funkcjonalne:
+System musi umozliwic pracownikom rezerwacje wizyty
+System powinnien podpowiadac mozliwe terminy wizyt
+System rezerwuje 
