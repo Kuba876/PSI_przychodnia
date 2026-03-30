@@ -1,0 +1,5 @@
+Nazwa;Numer PU;aktorzy;krotki opis;warunki wstepne;warunki koncowe;glowny przeplyw zdarzen;alternatywny przeplyw zdarzen;specjalne wymagania;notatki;
+
+Rejestracja Pacjenta, 1,Pacjent pracownik rejestracji,Pracownik wpisuje pacjenta i ustala dane rezerwacji,Co najmniej jeden lekarz i pokoj musi byc dostepny, System odnotowuje pokoj lekarza jako zajete i aktualizuje harmonogram,1.Pracownik dostaje informacje od Pacjenta o terminie dostepnosci pacjenta 2. Pracownik wybiera dodaj wizyte i wpisuje dostepnosc pacjenta 3.System wybiera i rezerwuje termin 4.System potwerdza rezerwacje komunikatem "zarejestrowano", 2a System wyswietla komunikat brak pasujacego do kryteriow terminu,Czas rejestracji powinien byc krotszy niz 3 sekundy; brak
+
+

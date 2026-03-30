@@ -1,0 +1,4 @@
+Nazwa;Numer PU;aktorzy;krotki opis;warunki wstepne;warunki koncowe;glowny przeplyw zdarzen;alternatywny przeplyw zdarzen;specjalne wymagania;notatki;
+
+Wizyta_lekarska, 1, pacjent lekarz; pacjent konsultuje sie z lekarzem, wizyta jest ustalona w terminarzu,lekarz wpisal dane o wizycie do systemu,1.Pacjent przychodzi na wizyte
+2.nastepuje konsultacja lekarska, 3 Wizyta sie konczy, 2b lekarz wystawia skierowanie,brak,brak
