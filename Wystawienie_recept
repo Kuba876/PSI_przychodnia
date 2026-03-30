@@ -1,0 +1,5 @@
+Nazwa;Numer PU;aktorzy;krotki opis;warunki wstepne;warunki koncowe;glowny przeplyw zdarzen;alternatywny przeplyw zdarzen;specjalne wymagania;notatki;
+
+Wystawienie_recepty, 3, lekarz krajowa baza danych recept,lekarz wpisuje informacje o leku i dane pacjenta,Nastapila konsultacja z Pacjentem,dane recepty zostaly wyslane do krajowej
+bazy danych recept, 1.lekarz po wywiadzie dobiera odpowiedni lek 2. lekarz zatwierdza recepte swojim numerem,1b brak leku w bazie danych 2b bledny numer lekarza;dane powinny byc
+wyslane do krajowej bazy danych recept w ciagu 5 min,brak
