@@ -1,0 +1,62 @@
+\documentclass{article}
+\author{Dawid S. Jakubczyk, Jakub Daszewski}
+\usepackage{polski}
+\usepackage[table]{xcolor}
+\usepackage[a4paper, margin=1in]{geometry}
+\title{Model biznesowy: Przychodnia medyczna}
+\begin{document}
+	\begin{tabular}{|m{10em}|m{20em}|}
+		\hline
+		Nazwa &Wizyta lekarska \\
+		\hline
+		Numer PU & 2\\
+		\hline
+		Aktorzy & Pacjent, Lekarz\\
+		\hline
+		Krotki opis & pacjent konsultuje sie z lekarzem\\
+		\hline
+		Warunki wstepne & wizyta jest ustalona w terminarzu\\
+		\hline
+		Warunki koncowe & lekarz wpisal dane o wizycie do systemu\\
+	
+		\hline
+		A
+		Glowny przepływ zdarzeń& 1.Pacjent przychodzi na wizyte \newline
+								 2.nastepuje konsultacja lekarska \newline
+								 3. Wizyta sie konczy  \\
+		\hline
+		Alternatywny przeplyw zdarzen &  2b. lekarz wystawia skierowanie\\
+		\hline
+		Specjalne wymagania & brak\\
+		\hline
+		Notatki& brak\\
+		\hline
+	\end{tabular}
+	\paragraph{}
+	\begin{tabular}{|m{10em}|m{20em}|}
+		\hline		
+		Nazwa &Rejestracja Pacjenta \\
+		\hline
+		Numer PU & 1\\
+		\hline
+		Aktorzy & Pacjent, pracownik rejestracji\\
+		\hline
+		Krotki opis & Pracownik wpisuje pacjenta i ustala dane rezerwacji\\
+		\hline
+		Warunki wstepne & Co najmniej jeden lekarz i pokoj musi byc dostepny\\
+		\hline
+		Warunki koncowe & System odnotowuje pokoj lekarza jako zajete i aktualizuje harmonogram\\
+		\hline
+		Glowny przepływ zdarzeń& 1.Pracownik dostaje informacje od Pacjenta o terminie dostepnosci pacjenta 
+		\newline 2. Pracownik wybiera dodaj wizyte i wpisuje dostepnosc pacjenta 
+		\newline 3.System wybiera i rezerwuje termin 
+		\newline 4.System potwerdza rezerwacje komunikatem "zarejestrowano"\\
+		\hline
+		Alternatywny przeplyw zdarzen &  2a System wyswietla komunikat brak pasujacego do kryteriow terminu\\
+		\hline
+		Specjalne wymagania & Czas rejestracji powinien byc krotszy niz 3 sekundy\\
+		\hline
+		Notatki& brak\\
+		\hline
+	\end{tabular}
+\end{document}
