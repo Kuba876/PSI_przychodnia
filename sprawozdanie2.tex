@@ -41,7 +41,7 @@
         \hline
         \textbf{Numer PU} & 4 \\
         \hline
-        \textbf{Aktorzy} & Administrator, Dostawca \\
+        \textbf{Aktorzy} & Administrator, Producent Wyposażenia \\
         \hline
         \textbf{Krótki opis} & Proces polegający na wybraniu, zamówieniu i wprowadzeniu do systemu nowego sprzętu w celu uzupełnienia zasobów. \\
         \hline
@@ -53,8 +53,10 @@
             1. Administrator wybiera opcję „Dodaj nowe wyposażenie”. \newline
             2. Administrator wprowadza dane sprzętu (nazwa, producent, model, cena). \newline
             3. Administrator zatwierdza wprowadzone dane. \newline
-            4. System generuje unikalny numer inwentarzowy. \newline
-            5. System zapisuje dane w bazie. \\
+            4. System generuje unikalny numer inwentarzowy \newline 
+            5. System wysyła zamówienie do Producenta \newline
+            6. Producent Dostarcza wyposażenie.\newline
+            7. System zapisuje dane w bazie. \\
         \hline
         \textbf{Alternatywne przepływy zdarzeń} & 
             2a. Wprowadzone dane są niepoprawne – system wyświetla komunikat o błędzie. \newline
@@ -75,7 +77,7 @@
         \hline
         \textbf{Numer PU} & 5 \\
         \hline
-        \textbf{Aktorzy} & Technik \\
+        \textbf{Aktorzy} & Serwisant \\
         \hline
         \textbf{Krótki opis} & Fizyczne zamontowanie lub ustawienie sprzętu w wyznaczonym miejscu oraz aktualizacja jego statusu w systemie. \\
         \hline
@@ -84,11 +86,12 @@
         \textbf{Warunki końcowe} & Wyposażenie jest gotowe do użytku, posiada przypisaną lokalizację oraz status „Dostępne”. \\
         \hline
         \textbf{Główny przepływ zdarzeń} & 
-            1. Technik lokalizuje sprzęt na liście „Oczekujące na instalację”. \newline
-            2. Technik wybiera odpowiedni sprzęt i przechodzi do formularza instalacji. \newline
-            3. Technik wprowadza lokalizację oraz osobę odpowiedzialną. \newline
-            4. Technik zmienia status sprzętu na „Dostępne”. \newline
-            5. System aktualizuje stan dostępności sprzętu. \\
+            1. Serwisant lokalizuje sprzęt na liście „Oczekujące na instalację”. \newline
+            2. Serwisant wybiera odpowiedni sprzęt i przechodzi do formularza instalacji. \newline
+            3. Serwisant wprowadza lokalizację oraz osobę odpowiedzialną. \newline
+            4. Instalacja Sprzętu \newline
+            5. Serwisant zmienia status sprzętu na „Dostępne”. \newline
+            6. System aktualizuje stan dostępności sprzętu. \\
         \hline
         \textbf{Alternatywne przepływy zdarzeń} & 
             4a. Podczas instalacji wykryto uszkodzenie – status zmieniany jest na „Uszkodzone”. \\
@@ -300,7 +303,7 @@
         \hline
         Numer PU & 12\\
         \hline
-        Aktorzy & Lekarz, Pacjent\\
+        Aktorzy & Lekarz\\
         \hline
         Krotki opis & Lekarz wystawia skierowanie na badania lub do specjalisty\\
         \hline
@@ -312,7 +315,7 @@
                                  2. Wpisuje rodzaj badania i informacje medyczne \newline
                                  3. System generuje i zapisuje skierowanie  \\
         \hline
-        Alternatywny przeplyw zdarzen &  2a. Badanie nie wymaga skierowania - lekarz informuje pacjenta\\
+        Alternatywny przeplyw zdarzen &  2a. Brak uprawnień do wystawienia takiego skierowania\\
         \hline
         Specjalne wymagania & brak\\
         \hline
