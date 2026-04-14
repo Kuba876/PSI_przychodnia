@@ -18,24 +18,57 @@
 	\hline
 	\textbf{Aktorzy} & Pracownik Administracyjny, Pacjent \\
 	\hline
-	\textbf{Krótki opis} & \\
+	\textbf{Krótki opis} & Prawcownik rejestruje pacjenta w wolnym terminie. \\
 	\hline
-	\textbf{Warunki wstępne} & \\
+	\textbf{Warunki wstępne} & Pacjent Dzwoni do przychodni. \\
 	\hline
-	\textbf{Warunki końcowe} & \\
+	\textbf{Warunki końcowe} & Pacjent jest poinformowany o statusie rejestracji.\\
 	\hline
 	\textbf{Główny przepływ zdarzeń} & 
-		1. \newline
-		   \\
+		1. System podświetla wolne termininy \newline
+		2. Pacjent podaje swoje informacje pracownikowi. \newline
+		3. Pracownik Zatwierdza rejestracje   \\
 	\hline
-	\textbf{Alternatywne przepływ zdarzeń} & \\
+	\textbf{Alternatywne przepływ zdarzeń} & 1a. System wyświetla komunikat o braku wolnych terminów\\
 	\hline 
 	\textbf{Notatki} & brak \\
 	\hline
 	\end{tabular}
+	
+    \vspace{1cm}
+    
+    \begin{tabular}{|m{10em}|m{30em}|}
+    	\hline
+    	\textbf{Nazwa} & Sprawdzanie Dostępności  \\
+    	\hline
+    	\textbf{Numer PU} & 2 \\
+    	\hline
+    	\textbf{Aktorzy} & Pracownik \\
+    	\hline
+    	\textbf{Krótki opis} & Pracownik sprawdza dostęponość lekarzy. \\
+    	\hline
+    	\textbf{Warunki wstępne} & Pracownik ma uprawnienia do wglądu w terminarz \\
+    	\hline
+    	\textbf{Warunki końcowe} &  System zwraca komunikat o  destępnośći\\
+    	\hline
+    	\textbf{Główny przepływ zdarzeń} & 
+    	1. Pracownik otwiera profil lekarza\newline
+    	2. Pracownik wpisuję pożądaną date.\newline
+    	3  System sprawdza czy lekarz jest dostępny w danej dacie.\newline
+    	4. System wyświetla komunikat.\\
+    	\hline
+    	\textbf{Alternatywne przepływ zdarzeń} & 1a. Nie ma profilu tego lekarza \newline
+    											 1b. System wyświetla komunikat i braku profilu\\
+    	\hline 
+    	\textbf{Notatki} & brak \\
+    	\hline
+    \end{tabular}
+    
+    \vspace{1cm}
+     
     \vspace{1cm}
     % --- PRZYPADEK 4: Zakup nowego wyposażenia ---
-    \begin{tabular}{|m{10em}|m{20em}|}
+    \begin{tabular}{|m{10em}|m{30em}|}
         \hline
         \textbf{Nazwa} & Zakup nowego wyposażenia \\
         \hline
@@ -202,6 +235,7 @@
         \hline
     \end{tabular}
 
+\vspace{1cm}
 
 % --- TABELA 1 ---
 \noindent
@@ -252,7 +286,8 @@
         \hline
         Glowny przepływ zdarzeń& 1.Pacjent przychodzi na wizyte \newline
                                  2.nastepuje konsultacja lekarska \newline
-                                 3. Wizyta sie konczy  \\
+                                 3. Wizyta sie konczy \newline
+                                 4. Lekarz wpisuje wizytę do systemu  \\
         \hline
         Alternatywny przeplyw zdarzen &  2a. lekarz wystawia recepte \newline
                                        2b. lekarz wystawia skierowanie\\
