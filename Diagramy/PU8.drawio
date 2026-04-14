@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ldm_s-6PP7y-1iIGI1Yl">
+    <mxGraphModel dx="1404" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-12" edge="1" parent="1" source="SIG4BY9_BMLVcG_gTHVQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SIG4BY9_BMLVcG_gTHVQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="pracownik" vertex="1">
+          <mxGeometry height="60" width="30" x="190" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="technik" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-3" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Wyposazenie" vertex="1">
+          <mxGeometry height="80" width="80" x="680" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-4" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="&lt;div&gt;formularz&lt;/div&gt;&lt;div&gt;zgloszen&lt;/div&gt;&lt;div&gt;usterki&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="330" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-7" edge="1" parent="1" source="SIG4BY9_BMLVcG_gTHVQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SIG4BY9_BMLVcG_gTHVQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-8" edge="1" parent="1" source="SIG4BY9_BMLVcG_gTHVQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SIG4BY9_BMLVcG_gTHVQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-5" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="&lt;div&gt;uszkodzone&lt;/div&gt;&lt;div&gt;wyposazenie&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="70" x="570" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-6" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="&lt;div&gt;Lista&lt;/div&gt;&lt;div&gt;wyposazenia&lt;/div&gt;&lt;div&gt;do&lt;/div&gt;&lt;div&gt;naprawy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="400" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-10" edge="1" parent="1" source="SIG4BY9_BMLVcG_gTHVQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIG4BY9_BMLVcG_gTHVQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-9" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="&lt;div&gt;zmiana statusu&lt;/div&gt;&lt;div&gt;na&lt;/div&gt;&lt;div&gt;uszkodzone&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="70" x="530" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-11" edge="1" parent="1" source="SIG4BY9_BMLVcG_gTHVQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.043;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" target="SIG4BY9_BMLVcG_gTHVQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIG4BY9_BMLVcG_gTHVQ-13" edge="1" parent="1" source="SIG4BY9_BMLVcG_gTHVQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SIG4BY9_BMLVcG_gTHVQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

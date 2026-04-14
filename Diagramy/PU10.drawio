@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZwiJTM2a1C5jmUioULXe">
+    <mxGraphModel dx="1404" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hOrmPWapb3WCkeVOomdE-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;div&gt;lekarz&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-10" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Formularz wizyty" vertex="1">
+          <mxGeometry height="80" width="100" x="260" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-13" edge="1" parent="1" source="hOrmPWapb3WCkeVOomdE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hOrmPWapb3WCkeVOomdE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-11" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="System zapisu" vertex="1">
+          <mxGeometry height="80" width="70" x="510" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-12" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Dane wizyty" vertex="1">
+          <mxGeometry height="80" width="80" x="510" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-14" edge="1" parent="1" source="hOrmPWapb3WCkeVOomdE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" target="hOrmPWapb3WCkeVOomdE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-15" edge="1" parent="1" source="hOrmPWapb3WCkeVOomdE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" target="hOrmPWapb3WCkeVOomdE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
