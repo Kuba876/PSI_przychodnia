@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.6">
+  <diagram name="Page-1" id="-ASjDtTplICmUb4HwSY7">
+    <mxGraphModel dx="1554" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ynLO4dmtDyb7pVZT5YTR-3" edge="1" parent="1" source="ynLO4dmtDyb7pVZT5YTR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ynLO4dmtDyb7pVZT5YTR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynLO4dmtDyb7pVZT5YTR-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;div&gt;Pracownik&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ynLO4dmtDyb7pVZT5YTR-5" edge="1" parent="1" source="ynLO4dmtDyb7pVZT5YTR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ynLO4dmtDyb7pVZT5YTR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynLO4dmtDyb7pVZT5YTR-2" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Formularz rejestracj" vertex="1">
+          <mxGeometry height="80" width="100" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ynLO4dmtDyb7pVZT5YTR-7" edge="1" parent="1" source="ynLO4dmtDyb7pVZT5YTR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ynLO4dmtDyb7pVZT5YTR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynLO4dmtDyb7pVZT5YTR-4" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Rejestracja" vertex="1">
+          <mxGeometry height="80" width="70" x="430" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ynLO4dmtDyb7pVZT5YTR-6" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="&lt;div&gt;Lista Rejestracji&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="425" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
