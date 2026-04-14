@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZwiJTM2a1C5jmUioULXe">
+    <mxGraphModel dx="1404" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hOrmPWapb3WCkeVOomdE-9" edge="1" parent="1" source="hOrmPWapb3WCkeVOomdE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hOrmPWapb3WCkeVOomdE-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;div&gt;lekarz&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-6" edge="1" parent="1" source="hOrmPWapb3WCkeVOomdE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hOrmPWapb3WCkeVOomdE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-7" edge="1" parent="1" source="hOrmPWapb3WCkeVOomdE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hOrmPWapb3WCkeVOomdE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-2" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Sytstem przesyu informacji" vertex="1">
+          <mxGeometry height="80" width="80" x="405" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-3" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="&lt;div&gt;Krajowa Baza Danych recept&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="405" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-4" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="&lt;div&gt;formularz wystawienia&lt;/div&gt;&lt;div&gt;recept&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="210" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-5" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="lokalna baza danych recept" vertex="1">
+          <mxGeometry height="80" width="80" x="600" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hOrmPWapb3WCkeVOomdE-8" edge="1" parent="1" source="hOrmPWapb3WCkeVOomdE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" target="hOrmPWapb3WCkeVOomdE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
