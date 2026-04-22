@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Strona-1" id="1u06RopmLvSKaEmFuLA7">
+    <mxGraphModel dx="1664" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pracownik" vertex="1">
+          <mxGeometry height="130" width="200" x="50" y="20" as="geometry">
+            <mxRectangle height="30" width="100" x="120" y="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-2" parent="LS_dVUeodUiLVVwr6Rz0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;# imie : String&lt;/div&gt;&lt;div&gt;# nazwisko : String&lt;/div&gt;&lt;div&gt;# Nr_identifikacyjny : Variant&lt;/div&gt;&lt;div&gt;# PESEL : Integer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-3" parent="LS_dVUeodUiLVVwr6Rz0-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-4" parent="LS_dVUeodUiLVVwr6Rz0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="32" width="200" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-32" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Wyposażenie" vertex="1">
+          <mxGeometry height="144" width="240" x="450" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-33" parent="LS_dVUeodUiLVVwr6Rz0-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ typ : String&lt;/div&gt;&lt;div&gt;+ nazwa : String&lt;/div&gt;&lt;div&gt;+ status : enum&lt;/div&gt;&lt;div&gt;+ Data_ostatniego przeglądu : date&lt;/div&gt;&lt;div&gt;+ Data_ostatniej_naprawy : date&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-34" parent="LS_dVUeodUiLVVwr6Rz0-32" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LS_dVUeodUiLVVwr6Rz0-35" parent="LS_dVUeodUiLVVwr6Rz0-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Zarezerwuj() : Rezerwacja wyposażenia&amp;nbsp;" vertex="1">
+          <mxGeometry height="26" width="240" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Rezerwacja Wyposażenia" vertex="1">
+          <mxGeometry height="124" width="240" x="30" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-4" parent="kJJW1BCEfpXa0jvt6ZE4-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Data Rezerwacji : Datetime&lt;/div&gt;&lt;div&gt;+ Data Zakończenia rezerwacji: Datetime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-5" parent="kJJW1BCEfpXa0jvt6ZE4-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-6" parent="kJJW1BCEfpXa0jvt6ZE4-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="240" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-17" edge="1" parent="1" source="kJJW1BCEfpXa0jvt6ZE4-3" style="endArrow=none;html=1;startArrow=diamondThin;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;startSize=20;" target="LS_dVUeodUiLVVwr6Rz0-1" value="1">
+          <mxGeometry relative="1" x="-0.9375" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="220" as="sourcePoint" />
+            <mxPoint x="290" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-18" edge="1" parent="1" source="kJJW1BCEfpXa0jvt6ZE4-3" style="endArrow=none;html=1;startArrow=diamondThin;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;startSize=20;" target="LS_dVUeodUiLVVwr6Rz0-32" value="1..n">
+          <mxGeometry relative="1" x="-0.9403" y="-28" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="170" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-19" edge="1" parent="1" source="LS_dVUeodUiLVVwr6Rz0-1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" target="LS_dVUeodUiLVVwr6Rz0-32" value="Rezerwuje">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="250" y="80" as="sourcePoint" />
+            <mxPoint x="410" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJJW1BCEfpXa0jvt6ZE4-20" connectable="0" parent="kJJW1BCEfpXa0jvt6ZE4-19" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
