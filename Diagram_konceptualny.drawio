@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="H2ZDfTYtpyXuFtdau6Rc">
+    <mxGraphModel dx="1404" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-5" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoimG6Rc2wAfyw08qt3P-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Pracownik&lt;/div&gt;&lt;div&gt;Rejestracji&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-6" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hoimG6Rc2wAfyw08qt3P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-20" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoimG6Rc2wAfyw08qt3P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pacjent" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-21" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoimG6Rc2wAfyw08qt3P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="rejestracja" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-19" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="hoimG6Rc2wAfyw08qt3P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="lekarz" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-17" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoimG6Rc2wAfyw08qt3P-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-18" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoimG6Rc2wAfyw08qt3P-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Wizyta" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Wyposazenie" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-14" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hoimG6Rc2wAfyw08qt3P-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Skierowanie" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-15" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="hoimG6Rc2wAfyw08qt3P-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Recepta" vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-16" edge="1" parent="1" source="hoimG6Rc2wAfyw08qt3P-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="hoimG6Rc2wAfyw08qt3P-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Technik" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Wyposazenie" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hoimG6Rc2wAfyw08qt3P-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="710" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
