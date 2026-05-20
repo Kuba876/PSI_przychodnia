@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Strona-1" id="xFzV4E1UrgCzudJAI9Z_">
+    <mxGraphModel dx="1414" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-89" parent="1" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=#ffffff;strokeColor=#999999;" value="" vertex="1">
+          <mxGeometry height="290" width="220" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-90" parent="Vu6GF63AIcX-DJaRCXIm-89" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" value="Worker ID" vertex="1">
+          <mxGeometry height="40" relative="1" width="220" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-91" parent="Vu6GF63AIcX-DJaRCXIm-89" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" value="ID" vertex="1">
+          <mxGeometry height="30" relative="1" width="180" as="geometry">
+            <mxPoint x="20" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-92" parent="Vu6GF63AIcX-DJaRCXIm-89" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" value="Password" vertex="1">
+          <mxGeometry height="40" relative="1" width="220" as="geometry">
+            <mxPoint y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-93" parent="Vu6GF63AIcX-DJaRCXIm-89" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" value="Password" vertex="1">
+          <mxGeometry height="30" relative="1" width="180" as="geometry">
+            <mxPoint x="20" y="130" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-95" parent="Vu6GF63AIcX-DJaRCXIm-89" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=#0085FC;strokeColor=none;align=center;fontSize=14;fontColor=#FFFFFF;" value="Sign in" vertex="1">
+          <mxGeometry height="40" relative="1" width="70" as="geometry">
+            <mxPoint x="20" y="180" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-96" parent="Vu6GF63AIcX-DJaRCXIm-89" style="shape=line;strokeColor=#999999;perimeter=none;resizeWidth=1;" value="" vertex="1">
+          <mxGeometry height="10" relative="1" width="220" as="geometry">
+            <mxPoint y="230" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vu6GF63AIcX-DJaRCXIm-97" parent="Vu6GF63AIcX-DJaRCXIm-89" style="html=1;fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" value="Forgot password?" vertex="1">
+          <mxGeometry height="20" relative="1" width="220" as="geometry">
+            <mxPoint y="250" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
