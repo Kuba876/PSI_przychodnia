@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="wEcaKY4Nok8oM1BYaW_7">
+    <mxGraphModel dx="1414" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PvgGv6A9-WJ1NhjfvuJU-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" value="Recepta" vertex="1">
+          <mxGeometry height="360" width="550" x="240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-3" parent="1" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#33A64C;fontColor=#FFFFFF;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;             &lt;/span&gt;Confirm" vertex="1">
+          <mxGeometry height="60" width="170" x="440" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-5" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" value="&lt;div&gt;Search for medicine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="250" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-10" parent="1" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#CED4DA;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#7D868C;align=left;spacingLeft=80;spacing=15;fontSize=14;" value="Dosage" vertex="1">
+          <mxGeometry height="60" width="190" x="250" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-11" parent="QpA_ecjD8rL7gRY7Za13-10" style="shape=triangle;direction=south;fillColor=#343A40;strokeColor=none;perimeter=none;" value="" vertex="1">
+          <mxGeometry height="3" relative="1" width="7" x="1" y="0.5" as="geometry">
+            <mxPoint x="-17" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-12" parent="QpA_ecjD8rL7gRY7Za13-10" style="shape=triangle;direction=north;fillColor=#343A40;strokeColor=none;perimeter=none;" value="" vertex="1">
+          <mxGeometry height="3" relative="1" width="7" x="1" y="0.5" as="geometry">
+            <mxPoint x="-17" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-13" parent="QpA_ecjD8rL7gRY7Za13-10" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;strokeColor=#CED4DA;gradientColor=inherit;fontColor=inherit;fillColor=#E9ECEF;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;align=left;spacing=15;" value="Unit" vertex="1">
+          <mxGeometry height="60" relative="1" width="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-15" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" value="Search for patient" vertex="1">
+          <mxGeometry height="60" width="190" x="250" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-16" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Prescription list" vertex="1">
+          <mxGeometry height="210" width="310" x="460" y="280" as="geometry">
+            <mxRectangle height="30" width="120" x="460" y="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-17" parent="QpA_ecjD8rL7gRY7Za13-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="L1" vertex="1">
+          <mxGeometry height="60" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-18" parent="QpA_ecjD8rL7gRY7Za13-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="L2" vertex="1">
+          <mxGeometry height="60" width="310" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QpA_ecjD8rL7gRY7Za13-19" parent="QpA_ecjD8rL7gRY7Za13-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="L3" vertex="1">
+          <mxGeometry height="60" width="310" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
