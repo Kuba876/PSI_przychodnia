@@ -7,35 +7,34 @@
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\renewcommand{\baselinestretch}{1.15} 
 \pagenumbering{arabic}
 \begin{document}
 	\pagestyle{fancy}
 	\begin{titlepage}
 	\maketitle
-	\center Ver. 1.0.0
+	\center Ver. 1.0.1
 	\center \textbf{Projektowanie Systemów Informatycznych}
 	\center \textbf{Prowadzący: mgr inż. A. Samojluk} \\
-	\begin{LARGE}
-	Dodać Diagramy
-	\end{LARGE}
 	\end{titlepage}
 	\tableofcontents
 	\newpage
 	\fancyhead[R]{Daszewski, Jakubczyk}
 	\fancyhead[L]{System Zarządzanie Katalogami}
 	\section{Analiza Biznesowa}	
-	Problem który rozwiązuje system informatyczny to zarządzanie wyposażeniem, układanie terminarza wizyt, pomoc w obsłudze wizyty
-	
-		
-	
-	Organizacja dla ktorej Si jest przeznaczony to średniej wielkosci przychodnia medyczna która obsługuje około 150 osób w ciagu dnia
+	\justify \textbf{Dziedzina Problemowa: }Problem który rozwiązuje system informatyczny to zarządzanie wyposażeniem, układanie terminarza wizyt, pomoc w obsłudze wizyty\\
+	\justify \textbf{Opis Organizacji: }Organizacja dla ktorej Si jest przeznaczony to średniej wielkosci przychodnia medyczna która obsługuje około 150 osób w ciagu dnia
 	
 
 \subsection*{Obsługa wizyt, łącznie z zarządzaniem pacjentami i lekarzami.}
 
 \subsubsection*{Kontekst dziedziny problemowej:}
-Pacjent przychodzi do rejestracji rejestrujac sie na wizyte, przychodnia rezerwuje gabinet lekarski, czas lekarza, i jesli jest wymagany sprzet medyczny to rowniez jest przypisywany do wizyty. Po wizycie publicznej NFZ rozlicza sie z przychodnia, jesli wizyta byla prywatna pacjent reguluje naleznosci w rejestracji.
-Przychodnia odpowiada za przeslanie informacji do systemu recept 
+
+\justify Pacjent przychodzi do rejestracji rejestrujac sie na wizyte, przychodnia rezerwuje gabinet lekarski, czas lekarza, i jesli jest wymagany sprzet medyczny to rowniez jest przypisywany do wizyty. Po wizycie publicznej NFZ rozlicza sie z przychodnia, jesli wizyta byla prywatna pacjent reguluje naleznosci w rejestracji.
+Przychodnia odpowiada za przeslanie informacji do systemu recept.
+ 
 \subsubsection*{Procesy i aktorzy biznesowi:}
 
 \begin{tabular}{|m{6em}|m{10em}|m{18em}|m{7em}|}
@@ -527,12 +526,59 @@ System pomaga przy wizycie zbierając dokumentacje od lekarza i udostępniając 
 \section{Modelowanie analityczne SI}
 \newpage
 \section{Modelowanie danych}
+\subsection{Diagram Koncpetualny Klas}
+\includegraphics[scale=0.6]{../Diagramy/Klasy/Diagram_konceptualny.png}
+\newpage
+\subsection{Diagram Obiektów}
+\includegraphics[scale=0.3]{../Diagramy/Klasy/Diagram_klasowy.png}
 \newpage
 \section{Projektowanie danych}
+\subsection{Model bazy danych}
+\includegraphics[scale=0.7]{../Diagramy/Baza_danych.png}
 \newpage
 \section{Projektowanie Interfejsu użytkownika}
+\subsection{Menu}
+\includegraphics[scale=0.9]{../UI Mock-Up/menu.drawio.png}
+\subsection{Login}
+\includegraphics[scale=1]{../UI Mock-Up/Login.drawio.png}
+\subsection{Dodanie Wyposażenia}
+\includegraphics[scale=0.9]{../UI Mock-Up/Dodawanie wyp.drawio.png}
+\subsection{Sprawdzanie dostępności}
+\includegraphics[scale=0.8]{../UI Mock-Up/Sprawdzanie dostepnosci.drawio.png}
 \newpage
 \section{Modelowanie dynamiki SI}
+	\section*{Diagramy Przypadków Użycia}
+	\subsection*{Rejestracja Pacjenta}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_1.png}
+	\subsection*{Sprawdzenie Dostępności}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_2.png}
+	\subsection*{Zakup nowego wyposażenia}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_3.png}
+	\subsection*{Instalacja nowego wyposażenia}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_4.drawio.png}
+	\subsection*{Okresowy przegląd wyposażenia}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_5.drawio.png}
+	\subsection*{Rezerwacja wyposażenia}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_6.drawio.png}
+	\subsection*{Naprawa zepsutego wyposażenia}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_7.drawio.png}
+	\subsection*{Rejestracja pacjenta}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_8.drawio.png}
+	\subsection*{Wizyta lekarska}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_9.drawio.png}
+	\subsection*{Wystawienie recepty}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_10.drawio.png}
+	\subsection*{Wystawienie Skierowania}
+	\includegraphics[scale=0.7]{../Diagramy/PU/PU_11.drawio.png}
 \newpage
 \section{Praca Zespołowa}
+\subsection{Wykaz podziału prac}
+Podział pracy był równomierny obaj byliśmy zaangażowani nad każdym diagramem dyskutowaliśmy razem i omawialiśmy go a po dyskusji przystępowaliśmy do zrobienia go
+Pracowaliśmy regularnie razem w bibliotece konsultując się i uzupełniając
+\subsection{Użyte narzędzia}
+\begin{itemize}
+\item Draw.io
+\item \LaTeX
+\item MySQLWorkbench
+\end{itemize}
 \end{document}

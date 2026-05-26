@@ -1,9 +1,0 @@
-\contentsline {section}{\numberline {1}Analiza Biznesowa}{2}{section.1}%
-\contentsline {section}{\numberline {2}Analiza Wymagań na SI}{5}{section.2}%
-\contentsline {section}{\numberline {3}Analiza Funkcjolna SI}{7}{section.3}%
-\contentsline {section}{\numberline {4}Modelowanie analityczne SI}{12}{section.4}%
-\contentsline {section}{\numberline {5}Modelowanie danych}{13}{section.5}%
-\contentsline {section}{\numberline {6}Projektowanie danych}{14}{section.6}%
-\contentsline {section}{\numberline {7}Projektowanie Interfejsu użytkownika}{15}{section.7}%
-\contentsline {section}{\numberline {8}Modelowanie dynamiki SI}{16}{section.8}%
-\contentsline {section}{\numberline {9}Praca Zespołowa}{17}{section.9}%
