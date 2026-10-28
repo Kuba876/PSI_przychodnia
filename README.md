@@ -21,7 +21,7 @@ Zakres funkcjonalności:
 
 
 | ID | Funkcjonalność | Zakres |
-
+|-----|---------------|--------|
 | F01 | System musi przechowywac dane o calym wyposazeniu przychodni | MVP |
 
 | F02 | System musi umożliwić pracownikom rezerwacje wizyty | MVP |
