@@ -23,17 +23,17 @@ Zakres funkcjonalności:
 | ID | Funkcjonalność | Zakres |
 |-----|---------------|--------|
 | F01 | System musi przechowywac dane o calym wyposazeniu przychodni | MVP |
-
+| | | |
 | F02 | System musi umożliwić pracownikom rezerwacje wizyty | MVP |
-
+| | | |
 | F03 | System powinien pokazywać dostępne terminy wizyt | MVP |
-
+| | | |
 | F04 | System musi umożliwić pracownikom rezerwacje wizyty | MVP |
-
+| | | |
 | F05 | System powinien pokazywać dostępne pomieszczenia we wskazanym terminie | MVP |
-
+| | | |
 | F06 | System powinien pokazywać dane pacjenta | Should |
-
+| | | |
 | F07 | Systen musi umożliwić zmianę planu w trakcie dnia | MVP |
 
 
